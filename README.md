@@ -15,8 +15,8 @@ This dataset consists of approximately 63,000 images, consisting of 3.1GB. Data 
     **Link to a detailed report on this project: https://drive.google.com/drive/u/3/folders/1C9fxMpfoJudzXcfCXBPZHMntDIHQ3-iZ **
 
 # Observation:
-From the 3 models we observed that model1 converged fast though the initialisation was truncated normal, but inception model that was pre trained on imagenet had good initialisation but at a point it was stuck, tried changing learning rate as well as optimizer but model2 was not converging, model3 designed
-by ourselves with HeNormal initialisation converged slow
+From the 3 models we designed, model1 converged fast though the initialisation was truncated normal, but inception model that was pre trained on imagenet had good initialisation but at a point it was stuck, tried changing learning rate as well as optimizer but model2 was not converging, model3 designed
+by ourselves with HeNormal initialisation converged slowly
 
 # Conclusion:
 We can conclude that CNNs are able to learn the entire task of lane and road following without manual decomposition into road or lane marking detection, semantic abstraction, path planning, and control.The 22 minutes of training data shows the car to operate in diverse conditions, on highways, local and residential roads in sunny and cloudy conditions. The CNN are able to learn meaningful road features from a very sparse training signal (steering alone).
