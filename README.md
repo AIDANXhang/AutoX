@@ -23,7 +23,7 @@ We can conclude that CNNs are able to learn the entire task of lane and road fol
 Further work can be done to improve the robustness of the network by considering speed, brakes and gear system, we can also use augmentation to deal in extreme failure conditions , and to improve visualization of the network-internal processing steps.
 
 # Team
-Mohammed Mohsin Ali (S20180010105), 
-Kandukuri Sai Teja (S20180010073), 
-Nikhil Kataria (S20180010118), 
-Bhavin Bansiwal (S20180010025).
+* Mohammed Mohsin Ali (S20180010105), 
+* Kandukuri Sai Teja (S20180010073), 
+* Nikhil Kataria (S20180010118), 
+* Bhavin Bansiwal (S20180010025).
