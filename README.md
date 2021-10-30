@@ -12,7 +12,7 @@ https://github.com/SullyChen/driving-datasets
 Format :- filename.jpg, angle, year-mm-dd hh:min:sec:millisec
 This dataset consists of approximately 63,000 images, consisting of 3.1GB. Data was recorded around Rancho Palos Verdes and San Pedro California.
 
-    *Link to a detailed report on this project: https://drive.google.com/file/d/1ieO5-zvVFa503gHy6beJW3eWzq76YD1s/view?usp=sharing
+    Link to a detailed report on this project: https://drive.google.com/file/d/1ieO5-zvVFa503gHy6beJW3eWzq76YD1s/view?usp=sharing
 
 # Observation:
 From the 3 models we designed, model1 converged fast though the initialisation was truncated normal, but inception model that was pre trained on imagenet had good initialisation but at a point it was stuck, tried changing learning rate as well as optimizer but model2 was not converging, model3 designed
